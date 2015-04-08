@@ -1,9 +1,10 @@
+// Arrays
 
-var age = 37; //Number Variable
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3 (indexs)
 
-var isStudent = false; //Boolean Variable
+muppetNames[1] = "Rizzo"; //change index #1 to Rizzo
+muppetNames[2] = "Fozzy;
 
-var firstName = "Deon";
+var num = 1
 
-var phrase = 'I don\'t know \n You\'ll have to speak with the professot';
-
+console.log(muppetNames[num]) // let's you see what's in the index
