@@ -1,8 +1,7 @@
 
-var yearBorn = 1977;
+var age; //declaration
+age = 37;  // definition (= assignment operator)
+//storage container = value
 
-/*
-console.log(yearBorn);
-    */
+var yearOfBirth = 1977; //declaring and defining on the same line
 
-alert(yearBorn)
