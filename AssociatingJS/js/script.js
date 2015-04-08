@@ -1,7 +1,9 @@
 
-var age; //declaration
-age = 37;  // definition (= assignment operator)
-//storage container = value
+var age = 37; //Number Variable
 
-var yearOfBirth = 1977; //declaring and defining on the same line
+var isStudent = false; //Boolean Variable
+
+var firstName = "Deon";
+
+var phrase = 'I don\'t know \n You\'ll have to speak with the professot';
 
