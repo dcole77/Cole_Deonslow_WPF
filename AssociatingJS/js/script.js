@@ -1,14 +1,10 @@
-// Casting
+// Expressions - Assignment Operators
 
-var stingVar = "6";
-var result = 7 + Number(stingVar);
-                    //put Number in front of the string number in cased in parenthesis to cast(treat) it as a number
-//console.log(result);
+var a = 3
+a += 4; //a = a + 4
+//console.log(a);
 
-var areaCode = 407;
-var firstPart = 203;
-var secPart = 4529;
-//(407) 203-4529
-var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
-                    //put Sting in front of variable in cased in parenthesis to cast it as a string
-console.log(phoneNo);
+var a = 3
+//a ++ ; //increment operators increases by one the same as a = a + 1
+a --; // increment operator decreases by one --> a = a -1
+console.log(a)
