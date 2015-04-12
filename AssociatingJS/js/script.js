@@ -1,6 +1,9 @@
-// Expressions
+// Expressions - Arithmetic Operators
 
-var a = 2; //sets up the variable a and defines it with 2
-var b;
-b = a + 3; //add 3 to a
-Console.log(b);
+//area of the triangle is half of the width times the height
+
+var width = 8;
+var height = 7;
+var area = width * height/2;
+console.log(area);
+
