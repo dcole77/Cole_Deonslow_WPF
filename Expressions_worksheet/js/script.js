@@ -42,3 +42,21 @@ var totalBills = shopBills[0] + shopBills[1] + shopBills[2] + shopBills[3] + sho
 var averageBills = totalBills / 5;
 //print out the output of the average spent on weekly groceries
 console.log("You have spent a total of $" + totalBills + " on groceries over 5 weeks. That is an average of $" + averageBills + " per week.");
+
+
+//Discounts
+
+//declare the item
+var item = "shirt"
+// the price of the item
+var shirt = 88.99;
+//declare the discount percentage
+var discount = 35 / 100;
+//declare the sales tax
+var salesTax = 7.5 / 100;
+//declare the amount of discount
+var totalDis = shirt - (shirt * discount);
+//declare the total of item with discount and tax
+var totalPrice = (totalDis * salesTax) + totalDis;
+//print out the output of the total of the item with the discount and sales tax
+console.log("Your " + item + " was originally $" + shirt + ", but after a " + discount + "% discount, it is now $" + totalDis + " without tax, and $" + totalPrice + " with tax.");
