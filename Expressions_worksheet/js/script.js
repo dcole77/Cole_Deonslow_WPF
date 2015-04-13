@@ -31,3 +31,14 @@ var eatPizza = (pizPies * pizSlices) % partyPeople;
 //print out the output for the remaining number of slices that Sparky would get to eat.
 console.log("Sparky got" + " " + eatPizza + " " + "slices of pizza." );
 
+
+//Average shopping bill
+
+//declare five weekly grocery bills in an array
+var shopBills = [35.89, 55.37, 40.67, 75.83, 60.95];
+//declare the total of the five bills
+var totalBills = shopBills[0] + shopBills[1] + shopBills[2] + shopBills[3] + shopBills[4];
+//declare the average of the total bills by dividing it by 5 weeks
+var averageBills = totalBills / 5;
+//print out the output of the average spent on weekly groceries
+console.log("You have spent a total of $" + totalBills + " on groceries over 5 weeks. That is an average of $" + averageBills + " per week.");
