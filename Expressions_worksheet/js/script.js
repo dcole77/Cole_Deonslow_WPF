@@ -23,3 +23,11 @@ var eatPizza = pizPies * pizSlices / partyPeople;
 //print out the output of the number of slices each person at the party got
 console.log("Each person ate" + " " + eatPizza + " " + "slices of pizza at the party.");
 
+
+//Slice of Pie part 2
+
+//Use Modulo to find the remainder of left over slices if everyone ate a even number of slices.
+var eatPizza = (pizPies * pizSlices) % partyPeople;
+//print out the output for the remaining number of slices that Sparky would get to eat.
+console.log("Sparky got" + " " + eatPizza + " " + "slices of pizza." );
+
