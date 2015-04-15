@@ -27,7 +27,7 @@ console.log("Each person ate" + " " + eatPizza + " " + "slices of pizza at the p
 //Slice of Pie part 2
 
 //Use Modulo to find the remainder of left over slices if everyone ate a even number of slices.
-var eatPizza = (pizPies * pizSlices) % partyPeople;
+eatPizza = (pizPies * pizSlices) % partyPeople;
 //print out the output for the remaining number of slices that Sparky would get to eat.
 console.log("Sparky got" + " " + eatPizza + " " + "slices of pizza." );
 
@@ -47,8 +47,8 @@ console.log("You have spent a total of $" + totalBills + " on groceries over 5 w
 //Discounts
 
 //declare the item
-var item = "shirt"
-// the price of the item
+var item = "shirt";
+//the price of the item
 var shirt = 88.99;
 //declare the discount percentage
 var discount = 35 / 100;
