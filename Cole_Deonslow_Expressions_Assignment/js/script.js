@@ -10,8 +10,8 @@ alert("Hi " + name);
 var weight = prompt(name + ", please enter your weight.");
 
 //Change user weight from pounds to kilograms
-var newWeight = weight / 2.2
-console.log(newWeight)
+var kgWeight = weight / 2.2;
+console.log(kgWeight);
 
 //invite user to enter the time spent on activities
 alert("Alright " + name + ". Let's get started, please enter the hours you plan to spend on each activity in a week.");
@@ -28,4 +28,13 @@ var totTime = Number(yogaTime) + Number(bikingTime) + Number(hikeTime) + Number(
 console.log(totTime);
 
 //let the user know the total time they spend on weekly activities
-alert(name + ", You plan on spending about" + totTime + " hours a week on these activities.");
+alert(name + ", You plan on spending about " + totTime + " hours a week on these activities.");
+
+//declare Metabolic Equivalent (MET) Values for activities
+var metValues = ["yoga", "biking", "hiking", "walking", "running"]
+metValues[0] = 3;
+metValues[1] = 8.6;
+metValues[2] = 6;
+metValues[3] = 3.8;
+metValues[4] = 7.5;
+
