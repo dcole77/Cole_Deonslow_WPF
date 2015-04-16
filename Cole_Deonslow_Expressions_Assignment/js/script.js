@@ -29,7 +29,7 @@ var totTime = Number(yogaTime) + Number(bikingTime) + Number(walkTime) + Number(
 console.log(totTime);
 
 //let the user know the total time they spend on weekly activities
-alert(name + ", You plan on spending about " + totTime + " hours a week on these activities.");
+alert(name + ", you plan on spending about " + totTime + " hours a week on these activities.");
 
 //declare Metabolic Equivalent (MET) Values for activities
 var metValues = ["yoga", "biking", "walking", "running"];
@@ -40,7 +40,7 @@ metValues[2] = 3.8;
 metValues[3] = 7.5;
 
 //alert user to see how many calories will be burned
-alert(name + " are you ready to see how many calories you will burn.");
+alert(name + " are you ready to see how many calories you will burn?");
 
 //calculate the total MET values
 var totMet = metValues[0] + metValues[1] + metValues[2] + metValues[3];
@@ -65,8 +65,13 @@ var wecalBurn = calBurned *= weeks;
 console.log(wecalBurn);
 
 //alert user of the amount of calories burned in the number of weeks
-alert(name + "! After " + weeks + " weeks you would have burned about " + wecalBurn + " calories! \nNow get off the computer and lets get moving.");
+alert(name + "! After " + weeks + " weeks you could've burned about " + wecalBurn + " calories! \nNow get off the computer and get moving.");
 
+
+/*To test everything, I put in my weight at 185, which equals 84.09kg. I put in 2 hours for each giving me a total of 8 hours.
+    Taking the product of the weight and the total MET values and multiplying it by the total time gave me a value around 15,405
+    total calories burned. Taking the total calories and multiplying it by the number of weeks gives the number of calories burned
+    over a period of time.*/
 
 
 
