@@ -13,6 +13,7 @@ if(degree === "F"){
     console.log("The temperature is " + degree + " degrees Fahrenheit.")
     }*/
 
+
 //Last Chance for Gas
 
 /*var gasEfficiency = 30;
@@ -24,8 +25,9 @@ if (gasCapacity * gasTank * gasEfficiency > 200){
     console.log("You only have " + (gasCapacity * gasTank) + " gallons of gas in your tank, better get gas now while you can!");
 }*/
 
+
 //Check the Login
-var userName = prompt("Please enter your User Name");
+/*var userName = prompt("Please enter your User Name");
 var userPass = prompt("Please enter your Password");
 var corName = "FullSail15";
 var corPass = "Welcome1";
@@ -35,4 +37,16 @@ if(userName === corName && userPass === corPass){
     console.log("User not found!");
 }else {
     console.log("Password does not match our records.")
+}*/
+
+
+//Movie Ticket Price
+var age = 10;
+var movieTime = 9;
+if(age < 10 || age >= 55){
+    console.log("The ticket price is $7");
+}else if(3 <= movieTime && movieTime <= 5){
+    console.log("The ticket price is $7");
+}else{
+    console.log("The ticket price is $12");
 }
