@@ -9,10 +9,12 @@ alert("Welcome " + name + ", let's see if you are hydrated.");
 console.log(name);
 
 //prompt user to enter their age & validate.
-var drinkerAge = prompt("Please enter your age.");
+var drinkerAge = prompt("Please enter your age. \nYou must be older than 8");
 if (isNaN(drinkerAge)){
     drinkerAge = prompt("Please enter your age. Numbers only.");
-}
+}else if (drinkerAge <= 8){
+    alert("You must be older than 8 to in order to complete this!");
+}else alert("Thank you " + name + ". Here comes the hard part.");
 console.log(drinkerAge);
 
 //prompt user to enter if they are a male of female
@@ -21,4 +23,26 @@ if (gender === "Male"){
     alert(name + ", your fluid intake is expected to be higher than females. \nGet ready to see if you are drinking enough.");
 }else{alert(name + ", your fluid intake is expected to be lower than males. \nGet ready to see if you are drinking enough.");
 }
-console.log(gender)
+console.log(gender);
+
+//delcare array of young & older males & females daily number of ounces to drink. Young males and females index 0 & 2. Older males & females index 1 & 3
+var dailyOunces = [96.5, 75, 125, 91];
+
+//delcare array of male or female.
+var gender = ["Male", "Female"]
+
+//prompt user to enter the number of cups they drink
+var cupsToDrink = prompt(name + ", how many cups do you drink a day?");
+alert(name + ", you are drinking about " + cupsToDrink * 8 + " ounces a day.")
+
+//alert user of the amount they should be drinking
+if (gender[0] && (drinkerAge>8 && drinkerAge<=18)) {
+    alert("You should be drinking" + dailyOunces[0] / 8 + " cups a day.");
+}else if (gender[0] && drinkerAge>=19){
+    alert("You should be drinking" + dailyOunces[2] / 8 + " cups a day.")
+}
+if (gender[2] && (drinkerAge>8 && drinkerAge<=18)) {
+    alert("You should be drinking" + dailyOunces[1] / 8 + " cups a day.");
+}else if (gender[0] && drinkerAge>=19){
+    alert("You should be drinking" + dailyOunces[3] / 8 + " cups a day.")
+}
