@@ -15,7 +15,6 @@ if(degree === "F"){
 
 
 //Last Chance for Gas
-
 /*var gasEfficiency = 30;
 var gasTank = .75;
 var gasCapacity = 20;
