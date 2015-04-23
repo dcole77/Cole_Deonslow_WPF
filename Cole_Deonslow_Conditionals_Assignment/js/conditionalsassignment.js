@@ -1,46 +1,24 @@
 /* Deonslow Cole 4/22/15 Conditionals Assignment*/
 
-//ask user to enter their name & participants name in order to begin the camp registration, verify they are a parent or guardian & welcome them.
-var name = prompt("To begin registering for our sports camp please enter your full name.");
+//prompt user to enter their name to begin, validate & welcome them.
+var name = prompt("Let's see if you are getting the recommended amount of water. \nTo begin please enter your name.");
 if (name === ""){
-    name = prompt("Ooops, you forgot something, \nPlease enter your full name in order to begin");
-    console.log(name)
+    name = prompt("Ooops, you forgot something, \nPlease enter your name in order to begin");
 }
+alert("Welcome " + name + ", let's see if you are hydrated.");
+console.log(name);
 
-//ask user to enter the participants name
-var camperName = prompt("Please enter the camper's full name.");
-if (camperName === ""){
-    camperName = prompt("Please enter camper's full name.");
-    console.log(camperName)
+//prompt user to enter their age & validate.
+var drinkerAge = prompt("Please enter your age.");
+if (isNaN(drinkerAge)){
+    drinkerAge = prompt("Please enter your age. Numbers only.");
 }
-//ask user to verify that they are the parent or guardian
-var guardian = prompt("Are you " + camperName + "'s parent or guardian?");
-if (guardian === "yes"){
-    alert("Thank you " + name + ", please continue.")
-}else{alert("Only " + camperName + "'s parent or guardian can fill out this information. \nPlease stop");
+console.log(drinkerAge);
 
+//prompt user to enter if they are a male of female
+var gender = prompt("Are you a Male or Female?");
+if (gender === "Male"){
+    alert(name + ", your fluid intake is expected to be higher than females. \nGet ready to see if you are drinking enough.");
+}else{alert(name + ", your fluid intake is expected to be lower than males. \nGet ready to see if you are drinking enough.");
 }
-//ask user to input information about the camper; Age, Grade & Weight
-var camperAge = prompt("How old is " + camperName);
-if (camperAge === "") {
-    camperAge = prompt("Please enter" + camperName + "'s age.");
-    console.log(camperAge)
-}
-var camperGrade = prompt("What grade is " + camperName + " in?");
-if (camperGrade === "") {
-    camperGrade = prompt("Please enter " + camperName + "'s grade.");
-    console.log(camperGrade)
-}
-var camperWeight = prompt("How much does " + camperName + " weigh?");
-if (camperWeight === "") {
-    camperWeight = prompt("Please enter " + camperName + " weight.");
-    console.log(camperWeight)
-
-}
-//ask user to select the group they would like to participate in
-var group = prompt("Which group would you like to join? \nBeginner \nIntermediate \nAdvanced");
-if (group === "Beginner"){
-    (camperAge >= 10 && camperAge <= 12);
-    alert(camperName + " meets the age requirements to be in the Beginner group.");
-}else (camperAge < 10)
-    alert(camperName + "is " + 10-camperAge + " year's too young to bein this group.");
+console.log(gender)
