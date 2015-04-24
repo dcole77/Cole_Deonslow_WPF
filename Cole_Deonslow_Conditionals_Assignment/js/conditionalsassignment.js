@@ -64,13 +64,13 @@ console.log(femaleOuncesLess);
 //Declare the variable for the male daily average and results
 var maleDailyAverage = (maleAverageOunces - cupsToDrink * 8);
 var finalMaleResults;
-finalMaleResults = (maleDailyAverage < 125) ? alert("If you are a male you are drinking " + maleOuncesLess + " ounces less than the recommended daily average") : alert("You are drinking more than the recommended average.");
+finalMaleResults = (maleDailyAverage < 125) ? alert("For a male you are drinking " + maleOuncesLess + " ounces less than the recommended daily average") : alert("You are drinking more than the recommended average.");
 
 //Declare the variable for the female daily average and results
 var femaleDailyAverage = (femaleAverageOunces - cupsToDrink * 8);
 var finalFemaleResults;
-finalFemaleResults = (femaleDailyAverage < 166) ? alert("You are a female you are drinking " + femaleOuncesLess + " ounces less than the recommended daily average") : alert("You are drinking more than the recommended average.");
+finalFemaleResults = (femaleDailyAverage < 166) ? alert("For a female you are drinking " + femaleOuncesLess + " ounces less than the recommended daily average") : alert("You are drinking more than the recommended average.");
 
-
+//In testing this calculation I validated that a name must be put in and that the age impute to complete everything was over 8. I put in that I drank 8 cups daily which returned that I was drinking 64 ounces a day. It returned a value that I should be drinking about 11 cups a day. As a final result it said as a male I and drinking 14 ounces less than the average and as a female I would be drinking 83 ounces less than the average.
 
 
