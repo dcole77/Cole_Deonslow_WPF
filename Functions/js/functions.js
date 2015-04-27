@@ -1,4 +1,4 @@
-// Functions - Returning Values
+// Functions - Functions vs Procedures
 /*
 //basic structure of the function.
 function outputMsg(){
@@ -34,7 +34,7 @@ function dogYears(age){//parameters are always in the function definition (will 
 }
 var age1 = 4;
 dogYears(age1); //arguments (the items you are passing into the function)
-dogYears(7);*/
+dogYears(7);
 
 
 var total = calArea(30, 20); //In order to get it to put the info out you need to assign it a variable to write it to.
@@ -43,4 +43,15 @@ function calArea(w, h){
     var area = w * h;
     return area; //function spitting the info out.
 }
-console.log(total);
+console.log(total);*/
+
+//This is a function
+function calAreaF(width, height){
+    var area = width * height;
+    return area;
+}
+//This is a procedure
+function calAreaP(width, height){
+    var area = width * height;
+    console.log(area); //no return.
+}
