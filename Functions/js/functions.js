@@ -1,4 +1,4 @@
-// Functions - Functions vs Procedures
+// Functions - Anonymous Functions
 /*
 //basic structure of the function.
 function outputMsg(){
@@ -21,6 +21,8 @@ calcArea();
 console.log(width)
 
 
+
+//Arguments & Parameters
 calArea(30, 20);//30 is the first argument be in the first parameter & 20 is the second. They will be sent to the function.
 
 function calArea(w, h){ //inside the parenthesis are the storage for the values. In this case w=30 & h=20
@@ -37,14 +39,16 @@ dogYears(age1); //arguments (the items you are passing into the function)
 dogYears(7);
 
 
+//Returning Values
 var total = calArea(30, 20); //In order to get it to put the info out you need to assign it a variable to write it to.
 
 function calArea(w, h){
     var area = w * h;
     return area; //function spitting the info out.
 }
-console.log(total);*/
+console.log(total);
 
+//Functions vs Procedures
 //This is a function
 function calAreaF(width, height){
     var area = width * height;
@@ -54,4 +58,17 @@ function calAreaF(width, height){
 function calAreaP(width, height){
     var area = width * height;
     console.log(area); //no return.
+} */
+
+
+
+//Anonynous Functions
+
+var calArea = function(width, height) {
+    var area = width * height;
+    return area;
 }
+
+var a = calArea(20, 30);
+
+console.log(a);
