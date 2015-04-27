@@ -1,5 +1,5 @@
-// Functions - Variable Scope
-
+// Functions - Parameters and Arguments
+/*
 //basic structure of the function.
 function outputMsg(){
     console.log("Hello World");
@@ -19,3 +19,20 @@ calcArea();
 
 //will write the variable outside of the function
 console.log(width)
+
+
+calArea(30, 20);//30 is the first argument be in the first parameter & 20 is the second. They will be sent to the function.
+
+function calArea(w, h){ //inside the parenthesis are the storage for the values. In this case w=30 & h=20
+    var area = w * h;
+    console.log(area);
+}
+*/
+
+function dogYears(age){//parameters are always in the function definition (will always hold the arguments)
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.")
+}
+var age1 = 4;
+dogYears(age1); //arguments (the items you are passing into the function)
+dogYears(7);
