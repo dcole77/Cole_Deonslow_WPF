@@ -1,3 +1,9 @@
-/**
- * Created by deoncole on 4/26/15.
- */
+//Loops
+
+//While Loops
+var b = 10; //sets up the index
+
+while (b > 0){ //checks the condition
+    console.log(b + " kegs on the wall.");
+    b--; //increments or decrements the index
+}
