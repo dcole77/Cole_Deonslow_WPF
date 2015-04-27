@@ -1,4 +1,4 @@
-// Functions - Parameters and Arguments
+// Functions - Returning Values
 /*
 //basic structure of the function.
 function outputMsg(){
@@ -27,7 +27,6 @@ function calArea(w, h){ //inside the parenthesis are the storage for the values.
     var area = w * h;
     console.log(area);
 }
-*/
 
 function dogYears(age){//parameters are always in the function definition (will always hold the arguments)
     var dogYears = age * 7;
@@ -35,4 +34,13 @@ function dogYears(age){//parameters are always in the function definition (will 
 }
 var age1 = 4;
 dogYears(age1); //arguments (the items you are passing into the function)
-dogYears(7);
+dogYears(7);*/
+
+
+var total = calArea(30, 20); //In order to get it to put the info out you need to assign it a variable to write it to.
+
+function calArea(w, h){
+    var area = w * h;
+    return area; //function spitting the info out.
+}
+console.log(total);
