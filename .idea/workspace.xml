@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a047988b-c2c3-4447-9830-15412636e285" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/js/functions.js" afterPath="$PROJECT_DIR$/Functions/js/functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_worksheet/js/functionsworksheet.js" afterPath="$PROJECT_DIR$/Functions_worksheet/js/functionsworksheet.js" />
     </list>
     <ignored path="Cole_Deonslow_WPF.iws" />
@@ -36,8 +37,8 @@
       <file leaf-file-name="functionsworksheet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/functionsworksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22058824">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0882353">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -47,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/Functions/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="19" selection-start-line="42" selection-start-column="0" selection-end-line="48" selection-end-column="19" />
+              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -88,10 +89,10 @@
         <option value="$PROJECT_DIR$/Cole_Deonslow_Conditionals_Assignment/ConditionalsAssignment.html" />
         <option value="$PROJECT_DIR$/Cole_Deonslow_Conditionals_Assignment/js/conditionalsassignment.js" />
         <option value="$PROJECT_DIR$/Functions/functions.html" />
-        <option value="$PROJECT_DIR$/Functions/js/functions.js" />
         <option value="$PROJECT_DIR$/Loops/loops.html" />
         <option value="$PROJECT_DIR$/Loops/js/loops.js" />
         <option value="$PROJECT_DIR$/Functions_worksheet/functions worksheet.html" />
+        <option value="$PROJECT_DIR$/Functions/js/functions.js" />
         <option value="$PROJECT_DIR$/Functions_worksheet/js/functionsworksheet.js" />
       </list>
     </option>
@@ -326,8 +327,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.functions worksheet.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.loops.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.functions.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.functions.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.loops.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ConditionalsAssignment.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ConditionalWorksheet.html" />
       </list>
@@ -348,13 +349,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="777" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997175" sideWeight="0.49714285" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -382,7 +383,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -752,15 +753,15 @@
     <entry file="file://$PROJECT_DIR$/Functions/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="19" selection-start-line="42" selection-start-column="0" selection-end-line="48" selection-end-column="19" />
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/functionsworksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22058824">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0882353">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
