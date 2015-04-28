@@ -9,3 +9,8 @@ function calCircumference (r){
     return circumference;
 }
 console.log("The circumference of the circle is " + totalRadius);
+
+
+//Stung Problem
+//declare variable for argument
+var totalWeight = vicWeight (135);
