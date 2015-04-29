@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a047988b-c2c3-4447-9830-15412636e285" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/js/functionsAssignment.js" afterPath="$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/js/functionsAssignment.js" />
-    </list>
+    <list default="true" id="a047988b-c2c3-4447-9830-15412636e285" name="Default" comment="" />
     <ignored path="Cole_Deonslow_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -401,7 +399,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="777" extended-state="0" />
+    <frame x="20" y="43" width="1400" height="777" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
