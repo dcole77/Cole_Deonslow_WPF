@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a047988b-c2c3-4447-9830-15412636e285" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/js/functionsAssignment.js" afterPath="$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/js/functionsAssignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cole_Deonslow_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions assignment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/functions assignment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functionsAssignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/js/functionsAssignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9338235">
-              <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.8897059">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,16 +48,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conditionalsassignment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Conditionals_Assignment/js/conditionalsassignment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="225" selection-start-line="73" selection-start-column="225" selection-end-line="73" selection-end-column="225" />
               <folding />
             </state>
           </provider>
@@ -764,9 +743,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/functions assignment.html">
+    <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Conditionals_Assignment/js/conditionalsassignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="225" selection-start-line="73" selection-start-column="225" selection-end-line="73" selection-end-column="225" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/functions assignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20579268">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
@@ -788,18 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Conditionals_Assignment/js/conditionalsassignment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="225" selection-start-line="73" selection-start-column="225" selection-end-line="73" selection-end-column="225" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cole_Deonslow_Functions_Assignment/js/functionsAssignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9338235">
-          <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.8897059">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
