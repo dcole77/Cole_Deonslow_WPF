@@ -61,7 +61,7 @@ console.log("Your total skill level is " + totSkillLevel + ".");
 var battleReady = prompt("OH NO! " + champName + ", Utron has arrived sooner than expected, now that you're equipped you'll have to face him. \nAre you ready to fight Ultron? \nYes or No");
 battleReady = battleReady.toLowerCase();
 while (battleReady === "" && (battleReady != "yes" || battleReady != "no")) {
-    battleReady = prompt(champName + " You must type Yes or No!");
+    battleReady = prompt(champName + " You must destroy Ultron please type Yes!");
 }
 if (battleReady === "yes") {
     battleReady = alert("Great, your courage to take on Ultron is magnificent!");
@@ -73,12 +73,12 @@ alert("The crowd is cheering " + champName + "!..." + champName + ", as you rush
 var outcome;
 if (totSkillLevel > villain){
     alert(champName + ", your " + totSkillLevel + " total skill level is enough to destroy Ultron. \nYou've saved the world.")
-}else outcome = prompt (champName + ", your " + totSkillLevel + " total skill level isn't enough to defeat Ultron, Ironman has arrived, would you like his help? \nType yes or no");
+}else outcome = prompt (champName + ", your " + totSkillLevel + " total skill level isn't enough to defeat Ultron. \nIron Man has arrived, would you like his help? \nType yes or no");
 var teamUp = outcome;
-(outcome === "yes") ? alert("You and Ironman are ready to take on Ultron") : alert(champName + ", you have let the world down we are doomed!");
-console.log(teamUp);
-//declare Ironman variable
-var ironMan  = 250;
+(outcome === "yes") ? alert("You and Iron Man are ready to take on Ultron") : alert(champName + ", you have let the world down we are doomed!");
+console.log(teamUp + " you and Iron Man are ready to team up and fight Ultron");
+//declare Iron Man variable
+var ironMan  = 421;
 //declare anonymous function for team up
 var finalTeam = function(ts, im){
     var finTeamUp = (ts + im);
@@ -86,3 +86,8 @@ var finalTeam = function(ts, im){
 }
 var finBattle = finalTeam(totSkillLevel, ironMan);
 console.log(finBattle);
+//write if statement to compare the team up and the villain
+if (finBattle > villain && teamUp === "yes"){
+    alert(champName + ", you and Iron Man have done it!! \nYour combined level of " + finBattle + " was enough to destroy Ultron. The world is safe because of you!! \nThank you " + champName + ".");
+}
+console.log(champName + ", you and Iron Man have done it!! \nYour combined level of " + finBattle + " was enough to destroy Ultron. The world is safe because of you!! \nThank you " + champName + ".");
