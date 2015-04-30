@@ -21,7 +21,7 @@ while(skillLevel === ""){
 }
 console.log("Your skill level is " + skillLevel + ".");
 //declare villain level
-    var villain = 700;
+    var villain = 825;
 //prompt user to pick weapons & validate
 var weapon1 = prompt(champName + " choose in your first weapon. \n1. Power Boost \n2. Partial Defense Boost");
     weapon1 = weapon1.toLowerCase();
@@ -29,8 +29,8 @@ while (weapon1 === "") {
         weapon1 = prompt(champName + " You can't fight without a weapon! \nChoose your first weapon \n1. Power Boost \n2. Partial Defense Boost")
     }
     if (weapon1 === "power boost") {
-        weapon1 = skillLevel * .5
-    } else (weapon1 = skillLevel * .20);
+        weapon1 = Number(skillLevel) + (Number(skillLevel) * .25)
+    } else (weapon1 = Number(skillLevel) + (Number(skillLevel) * .15));
 console.log("You received a boost of " + weapon1 + ".");
 var weapon2 = prompt(champName + " choose your second weapon. \n1. Element Gun \n2. Infinity Sword");
 weapon2 = weapon2.toLowerCase();
@@ -38,7 +38,7 @@ while (weapon2 === "") {
         weapon2 = prompt(champName + " Another weapon will greatly increase your chance of survival! \nChoose your second weapon \n1. Element Gun \n2. Infinity Sword")
     }
     if (weapon2 === "element gun") {
-        weapon2 = Number(skillLevel) + 150
+        weapon2 = Number(skillLevel) + 90
     } else (weapon2 = skillLevel * .70);
 console.log("You've received an additional " + weapon2 + " to your skill level with the addition of your second weapon.");
 var weapon3 = prompt(champName + " choose your third weapon. \n1. Armored Suit  \n2. Proton Cannon");
@@ -47,8 +47,8 @@ while (weapon3 === "") {
         weapon3 = prompt(champName + " You need something to help fight Ultron! \nChoose your third weapon for battle! \n1. Armored Suit  \n2. Proton Cannon");
     }
     if (weapon3 === "armored suit") {
-        weapon3 = Number(skillLevel) + 100
-    } else (weapon3 = Number(skillLevel) + 150);
+        weapon3 = Number(skillLevel) + 90
+    } else (weapon3 = Number(skillLevel) + 110);
 console.log("Your last weapon has increased your skill level by " + weapon3 + ".");
 //set up function for total skill level
 var totSkillLevel = completeSkillLevel(weapon1, weapon2, weapon3);
@@ -57,3 +57,13 @@ function completeSkillLevel (w1, w2, w3){
     return total
 }
 console.log("Your total skill level is " + totSkillLevel + ".");
+//prompt user to ask if they are ready to battle & validate
+var battleReady = prompt("OH NO! " + champName + ", Utron has arrived sooner than expected, now that you're equipped you'll have to face him. \nAre you ready to fight Ultron? \nYes or No");
+battleReady = battleReady.toLowerCase();
+while (battleReady === "" && battleReady != "yes" || battleReady != "no") {
+    battleReady = prompt(champName + " You must type Yes or No!");
+}
+if (battleReady === "yes") {
+    battleReady = prompt("Type Attack to take on Ultron");
+} else prompt("There's no time for hesitation " + champName + " Earth is depending on you. Type Attack before Ultron destroys the planet!");
+console.log("You're going to attack Ultron.");
