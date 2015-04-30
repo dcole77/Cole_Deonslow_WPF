@@ -73,7 +73,16 @@ alert("The crowd is cheering " + champName + "!..." + champName + ", as you rush
 var outcome;
 if (totSkillLevel > villain){
     alert(champName + ", your " + totSkillLevel + " total skill level is enough to destroy Ultron. \nYou've saved the world.")
-}else outcome = prompt (champName + ", your " + totSkillLevel + " total skill level isn't enough to defeat Ultron, Ironman has arrived, would you like his help?");
+}else outcome = prompt (champName + ", your " + totSkillLevel + " total skill level isn't enough to defeat Ultron, Ironman has arrived, would you like his help? \nType yes or no");
 var teamUp = outcome;
 (outcome === "yes") ? alert("You and Ironman are ready to take on Ultron") : alert(champName + ", you have let the world down we are doomed!");
 console.log(teamUp);
+//declare Ironman variable
+var ironMan  = 250;
+//declare anonymous function for team up
+var finalTeam = function(ts, im){
+    var finTeamUp = (ts + im);
+    return finTeamUp
+}
+var finBattle = finalTeam(totSkillLevel, ironMan);
+console.log(finBattle);
