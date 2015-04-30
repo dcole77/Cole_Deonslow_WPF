@@ -54,16 +54,26 @@ console.log("Your last weapon has increased your skill level by " + weapon3 + ".
 var totSkillLevel = completeSkillLevel(weapon1, weapon2, weapon3);
 function completeSkillLevel (w1, w2, w3){
     var total = (w1 + w2) + w3;
-    return total
+    return total;
 }
 console.log("Your total skill level is " + totSkillLevel + ".");
 //prompt user to ask if they are ready to battle & validate
 var battleReady = prompt("OH NO! " + champName + ", Utron has arrived sooner than expected, now that you're equipped you'll have to face him. \nAre you ready to fight Ultron? \nYes or No");
 battleReady = battleReady.toLowerCase();
-while (battleReady === "" && battleReady != "yes" || battleReady != "no") {
+while (battleReady === "" && (battleReady != "yes" || battleReady != "no")) {
     battleReady = prompt(champName + " You must type Yes or No!");
 }
 if (battleReady === "yes") {
-    battleReady = prompt("Type Attack to take on Ultron");
-} else prompt("There's no time for hesitation " + champName + " Earth is depending on you. Type Attack before Ultron destroys the planet!");
+    battleReady = alert("Great, your courage to take on Ultron is magnificent!");
+}else prompt("There's no time for hesitation " + champName + "!! Earth is depending on you. Type yes to attack before Ultron destroys the planet!");
 console.log("You're going to attack Ultron.");
+//alert user they are about to attack
+alert("The crowd is cheering " + champName + "!..." + champName + ", as you rush into battle!!");
+//write if statement to compare skill levels to determine outcome
+var outcome;
+if (totSkillLevel > villain){
+    alert(champName + ", your " + totSkillLevel + " total skill level is enough to destroy Ultron. \nYou've saved the world.")
+}else outcome = prompt (champName + ", your " + totSkillLevel + " total skill level isn't enough to defeat Ultron, Ironman has arrived, would you like his help?");
+var teamUp = outcome;
+(outcome === "yes") ? alert("You and Ironman are ready to take on Ultron") : alert(champName + ", you have let the world down we are doomed!");
+console.log(teamUp);
