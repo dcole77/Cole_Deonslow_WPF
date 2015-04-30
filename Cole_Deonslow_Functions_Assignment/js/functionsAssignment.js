@@ -1,7 +1,7 @@
 //Deonslow Cole, 4-27-15, Functions Assignment
 
 //welcome user
-alert("Welcome to the Marvel Hero's Game");
+alert("Welcome to The Avenger's Hero Game");
 //prompt user to enter & validate
 var champName = prompt("To begin, create yourself a Super Hero Champion Name");
 while (champName === ""){
