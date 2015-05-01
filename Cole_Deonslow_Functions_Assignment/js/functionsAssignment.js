@@ -23,7 +23,7 @@ console.log("Your skill level is " + skillLevel + ".");
 //declare villain level
     var villain = 825;
 //prompt user to pick weapons & validate
-var weapon1 = prompt(champName + " choose in your first weapon. \n1. Power Boost \n2. Partial Defense Boost");
+var weapon1 = prompt(champName + " choose your first weapon. \n1. Power Boost \n2. Partial Defense Boost");
     weapon1 = weapon1.toLowerCase();
 while (weapon1 === "") {
         weapon1 = prompt(champName + " You can't fight without a weapon! \nChoose your first weapon \n1. Power Boost \n2. Partial Defense Boost")
@@ -58,7 +58,7 @@ function completeSkillLevel (w1, w2, w3){
 }
 console.log("Your total skill level is " + totSkillLevel + ".");
 //prompt user to ask if they are ready to battle & validate
-var battleReady = prompt("OH NO! " + champName + ", Utron has arrived sooner than expected, now that you're equipped you'll have to face him alone. \nAre you ready to fight Ultron? \nYes or No");
+var battleReady = prompt("OH NO! " + champName + ", Ultron has arrived sooner than expected, now that you're equipped you'll have to face him alone. \nAre you ready to fight Ultron? \nYes or No");
 battleReady = battleReady.toLowerCase();
 while (battleReady === "" && (battleReady != "yes" || battleReady != "no")) {
     battleReady = prompt(champName + " You must destroy Ultron please type Yes!");
