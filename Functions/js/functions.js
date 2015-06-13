@@ -62,7 +62,7 @@ function calAreaP(width, height){
 
 
 
-//Anonynous Functions
+//Anonymous Functions
 
 var calArea = function(width, height) {
     var area = width * height;
